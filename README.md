@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 Library – Online Book Store
 
-## Getting Started
+**Library** is a full-stack web app built with **Next.js, TypeScript, Tailwind CSS, and Context API**.  
+It allows users to browse and purchase books with authentication powered by a **JSON Server** backend.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Demo
+👉 [View Live Project](https://library-ashen-beta.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 👤 Test User Account
+You can use the following test account to log in:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Email:** ms3198@fayoum.edu.ed  
+- **Password:** Google00  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Features
+- 📖 Browse available books  
+- 🔍 Search books by title or author  
+- 🛒 Add books to cart and place orders  
+- 👤 Login with user credentials  
+- 💾 Data persistence with JSON Server  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ Tech Stack
 
-## Deploy on Vercel
+### 💻 Frontend
+- Next.js (with TypeScript)
+- Tailwind CSS
+- Context API (state management)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🗄 Backend
+- JSON Server (mock database)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### ☁ Deployment
+- Vercel (Frontend hosting)
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### ✅ Prerequisites
+- [Node.js](https://nodejs.org) (v16 or later)  
+- npm (comes with Node.js)  
+
+---
+
+### 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_GITHUB_USERNAME/library.git
+   cd library
+
+   ### Replace YOUR_GITHUB_USERNAME with your GitHub username.
+   #### install dependencies
+     npm i
+
+   ### Run JSON Server:
+   npx json-server --watch db.json --port 5000
+
+   ###▶️Start the Frontend
+   In a new terminal, run:
+   npm run dev
